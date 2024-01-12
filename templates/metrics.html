@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Metrics</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Prediction Outputs</a></li>
+            <li><a href="/metrics">Metrics</a></li>
+        </ul>
+    </nav>
+    <div class="title">Metrics</div>
+
+    <div class="container">
+        <div class="image-content">
+            <img src="static\Picture1.png" alt="Metric Image 1">
+            <p> Total loss –  1.46
+                In the Mask R-CNN model, the total loss is a combination of multiple loss components. It is the sum of the classification loss, localization loss , and mask loss.
+                Total Loss = Classification Loss + Localization Loss + Mask Loss
+                Here when the total loss for the training set is 1.46 and the total loss for the validation set is 6.8, it suggests that the model is performing significantly better on the training set compared to the validation set. This difference in loss values can be an indication of overfitting.</p>
+        </div>
+
+        <div class="image-content">
+            <img src="static\Picture2.png" alt="Metric Image 2">
+            <p> Classification loss – 0.24
+                It is computed based on the difference between the predicted class probabilities and the true class labels for the detected objects.
+                In my model the classification loss is 0.24 for the training set and 0.48 for the validation set. These values indicate that the model is performing better on the training set compared to the validation set. The difference in the classification loss between the two sets suggests that the model may be overfitting the training data.</p>
+        </div>
+
+        <div class="image-content">
+            <img src="static\Picture3.png" alt="Metric Image 3">
+            <p> Localization Loss –  0.68
+                Measures how well the model can predict the coordinates of the bounding boxes around the objects detected in the image. It is computed based on the difference between the predicted bounding box coordinates and the true bounding box coordinates.
+
+                Ground Truth Box: [50, 60, 150, 200]
+                Predicted Box: [55, 65, 145, 190]
+                L = Σ (coord_true - coord_pred)^2
+                </p>
+        </div>
+
+        <div class="image-content">
+            <img src="static\Picture4.png" alt="Metric Image 4">
+            <p> Mask Loss – 5.72
+                Measures how well the model can predict the pixel-wise segmentation masks for the objects detected in the image. It is computed based on the difference between the predicted object masks and the true object masks.
+                -Σ (y_true * log(y_pred) + (1 - y_true) * log(1 - y_pred))
+                </p>
+        </div>
+    </div>
+</body>
+</html>

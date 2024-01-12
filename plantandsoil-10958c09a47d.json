@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "plantandsoil",
+  "private_key_id": "10958c09a47d9aa45ab5f90941e81a6cf69b9dde",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCY3E2cduC5DLHX\nKp0KOY6pDaZLRo++WchZA/SGt6WtYKUS7Yu78AvKU/UgjStwytNFxpjzK/g0qnLO\nqurDEqMJ7IQVn4xcgC2B0ze0uEgpbhh5Fpmsr2q6UUmYcIAT4YqaCn9IWATTivUJ\nPcC/lt4sB/ly/KjzXcYAVVD1d3mZGroGcS3K0QRysRHW7RbqrMBkKLqG313S2Guc\nGzSdW+ikBO8kRCYRf3SVLhFqpJnb9nSCtaO44uApeCdaMMxdJuLgKPU59yRb/4/W\nYnhfyyaawOcUZNLoTevh1fmKVREPewGJxEYICNkTOD2ZZRpM9b6+kdvqgqYSL1NT\nb4+h65MdAgMBAAECgf993fK03qlk+L5t5GHAY63zaWsOO29tBrA4+rgqW674w8ZF\npP7N/2RNrDMT/jOJSRq32cGJSsMH3RknHRpOTW3WGCg4+zVtxfeyxEdX9MTMAyxT\nDWC1iZXFRw1g0l5FHQUk5ReURhUujQj1S/I2jby4oVOa96m0uwJdJ3Fqrg3o4XkP\nUCnfyewPEUrivmKcHMyxfeRi/69vFLNpKEGoT1xdJwZbbVONaB4E8qeJlFCJnfTQ\n1zVyt7I1FfRU+z3zxuVfKXBW6yQPsEGXzVx1Lv29lyPa6qnUwxzXr/WPnecF8ql8\njj1szoENR10P2nKymDwxisucCynZPLYzwqzlONcCgYEAyoD1aQsSx7A7eN05kSj9\neXlJdCcVUnkdnkcwgsCmkgCNR7y96Jql6mZWIS5pwtiqKnUHL47HAnVAO9jUmZO7\ndB/a5aDrYvQL6zaOBHM+pNjVu+2gdKPMf8PrzSyICjZpI02nXQjsKEf+dL09qD0/\n/mfuHdIczWrc+8TAH/0gfw8CgYEAwT4L1gS7W9Kv3m9vi2ZEVhBeU+cyd2e7fjki\nbGoFLVa3b1N0XOKEY+fJeAu6YO9dgFXOFuLtsxCUHG4qF24Q6oLiANIHMQB7Rmkb\n6cqlx6KU1zf4YwbiYEuKsrAiGsib9GB2NiMbP1NINpnFZqRnoujHMyZVqNYnRL1c\n2GQrixMCgYBDFDa2xglBhnoczkM8d3SHYYrYY/3nJOGPxYsnNMO4h2BFTBsoStn8\n7EtJkINOHNE5YSyxLz1y7f4KFQhPmyU0ET1EZWqzi53LG3YtuTMeDgm2x78oA/5A\nsFiSzVZ+84kePaHb6pG3wili6DDdYvSoxCqXTDtoPCbZa1ItBn9WNwKBgQCh2gD5\n2W6/osBwsq8fd6Fm4EDRT4SCZByyxNHjMg1yAv6SvLhqj8LJFrs008XgKLwMoFGD\n87+ZShpzkYWpqCN89/CpNUCWt0uJFsItV/DwO2kktZlR/9MdSkg6D7IQ8tNEpIJ+\nJ3tL18pVCQhARxUSaptlaQc36V5sgZpBF+0shwKBgHzz+5XGLYzRDCnf83JoISG3\nkOj5iwuEDdeVxq3ZmSMGjLDJ0ULWn2sga6YvanV0RLOUnwBEJSDpV6J6cJLOgPFS\nSNKVZfC8bVjTtackZ/kjZ4z8USkT21irEQKZxEpW4B7AuKvmQbdkaqNyqLsyLcDb\nq7sTr9l47daH4CsSUiC6\n-----END PRIVATE KEY-----\n",
+  "client_email": "plantrasp@plantandsoil.iam.gserviceaccount.com",
+  "client_id": "115057616425414590639",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/plantrasp%40plantandsoil.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

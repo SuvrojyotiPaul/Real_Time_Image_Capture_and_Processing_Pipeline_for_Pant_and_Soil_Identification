@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Outputs</title>
+    <meta http-equiv="refresh" content="30"> <!-- Refresh every 4 minutes -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Prediction Outputs</a></li>
+            <li><a href="/metrics">Metrics</a></li>
+        </ul>
+    </nav>
+    <div class="title">Prediction Outputs</div>
+    <div class="container">
+        {% for image in images %}
+            <img id="{{ loop.index }}" src="http://localhost:5000/images/{{ image }}" alt="{{ image }}" onclick="onClick(this)">
+        {% endfor %}
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">×</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal").style.display = "block";
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        document.getElementById("modal").style.display = "none";
+    }
+    </script>
+</body>
+</html>
