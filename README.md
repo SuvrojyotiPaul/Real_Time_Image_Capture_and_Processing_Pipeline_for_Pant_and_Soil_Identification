@@ -42,6 +42,11 @@ field, such as differentiating between plant and soil regions
 
 <br><br>
 
+## This how the model metrics look in the web interface, for more detail about the metrics and evaluation please check the report pdf mentioned above
+![Screenshot 2024-01-13 130203](https://github.com/SuvrojyotiPaul/Real_Time_Image_Capture_and_Processing_Pipeline_for_Pant_and_Soil_Identification/assets/122437351/2c196ddf-5f43-4248-b892-19c0f5ee985d)
+
+<br></br>
+
 ## To reproduce the Results:-
 - 1) Start the myscriptmodified.py file located in the local (/home/pi/Desktop/Test) of each R-pi via terminal.
 - 2) Go to the google cloud storage account to monitor the uploaded file (optional)
