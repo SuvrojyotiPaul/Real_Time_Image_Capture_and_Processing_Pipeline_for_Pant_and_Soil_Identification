@@ -5,7 +5,7 @@ from datetime import datetime
 from google.cloud import storage
 
 # Set Google Cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/pi/Desktop/Test/plantandsoil-10958c09a47d.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/pi/Desktop/Test/google_cloud_key.json'
 
 # Google Cloud Storage parameters
 bucket_name = 'plantrasp'
